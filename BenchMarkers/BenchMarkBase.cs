@@ -1,23 +1,10 @@
-﻿using BenchmarkDotNet.Analysers;
-using BenchmarkDotNet.Attributes;
+﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Columns;
 using BenchmarkDotNet.Diagnosers;
-using BenchmarkDotNet.Diagnostics.Windows.Configs;
-using BenchmarkDotNet.Engines;
-using BenchmarkDotNet.Exporters;
-using BenchmarkDotNet.Loggers;
-using BenchmarkDotNet.Reports;
-using BenchmarkDotNet.Running;
-using BenchmarkDotNet.Validators;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EFTableExporter.BenchMarkers
 {
-  
+
     [MinColumn, MaxColumn, RankColumn, IterationsColumn, Q1Column, Q3Column]
     [EventPipeProfiler(EventPipeProfile.GcVerbose)]
     [MaxIterationCount(5)]

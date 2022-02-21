@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace EFTableExporter
+﻿namespace EFTableExporter
 {
     public partial class DataTable1
     {

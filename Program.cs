@@ -1,8 +1,5 @@
 ﻿using BenchmarkDotNet.Running;
 using EFTableExporter.BenchMarkers;
-using EFTableExporter.ExporterLib;
-using Newtonsoft.Json;
-using System.Text.Json;
 
 namespace EFTableExporter
 {
