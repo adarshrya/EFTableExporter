@@ -31,8 +31,7 @@ namespace EFTableExporter.ExporterLib
                 }
                 streamWriter.Flush();
                 streamWriter.Close();
-            }
-            //}
+            } 
         }
 
         public static void BatchingExport<T>(this DbContext db, string FilePath, int MaxRows = int.MaxValue) where T : class
